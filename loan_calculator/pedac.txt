@@ -1,0 +1,25 @@
+Objective: Build a loan calculator application using the same methods as for the dice-rolling application
+
+Input: loan amount, loan duration
+Output: 
+  -loan amount, in dollars
+  -loan duration, in years
+  -the APR, as a percentage
+  -the monthly payment, in dollars
+
+Rules:
+  -APR is set at 5%
+  -Query string template: http://localhost:3000/?amount=5000&duration=10
+  -Use this formula: let m = p * (j / (1 - Math.pow((1 + j), (-n))));
+    -m = monthly payment
+    -p = loan amount
+    -j = monthly interest rate
+    -n = loan duration in months
+    -When you write your program, don't use the single-letter variables m, p, j, and n; use explicit names. 
+      For instance, you may want to use loanAmount instead of p.
+    -Try to print the payment amount as a dollar and cents amount, e.g., $123.45 or $371.00.
+
+
+Algorithm for loan calculator
+  -
+  
